@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Bird Feeding</title>
+</head>
+<body>
+    <section class="intro">
+         <div class="game_rules">
+            <div class="close">X</div>
+            <div class="rules">
+                <h1>Game Introduction</h1>
+                <ol>
+                    <li>You have to feed the birds to win</li>
+                    <li>brid with crown has 2 points</li>
+                    <li>you need 10 points to win</li>
+                    <li>on score meter you can see your score</li>
+                </ol>
+            </div>
+            <div class="done">Done</div>
+         </div>
+    </section>
+    <section class="bg gone">
+        <div class="worm-box">
+            <div style = "width:5%" class="worm-container">
+                <img src="/image/worm.png" class ="worm" alt="leaderboard">
+            </div>
+        </div>
+        <div class="hole-container">
+            <div class="hole" id="hole-0">
+                <img src="./image/king-mole-hungry.png" data-index="0" class="mole" alt="mole">
+            </div>
+        </div>
+        <div class="hole-container">
+            <div class="hole" id="hole-1">
+                <img src="./image/king-mole-sad.png" data-index="1" class="mole" alt="mole">
+            </div>
+        </div>
+        <div class="hole-container">
+            <div class="hole" id="hole-2">
+                <img src="./image/king-mole-hungry.png" data-index="2" class="mole" alt="mole">
+            </div>
+        </div>
+        <div class="hole-container">
+            <div class="hole" id="hole-3">
+                <img src="./image/king-mole-sad.png" data-index="3" class="mole" alt="mole">
+            </div>
+        </div>
+        <div class="hole-container">
+            <div class="hole" id="hole-4">
+                <img src="./image/king-mole-leaving.png" data-index="4" class="mole" alt="mole">
+            </div>
+        </div>
+        <div class="hole-container">
+            <div class="hole" id="hole-5">
+                <img src="./image/mole-hungry.png" data-index="5" class="mole" alt="mole">
+            </div>
+        </div>
+        <div class="hole-container">
+            <div class="hole" id="hole-6">
+                <img src="./image/mole-sad.png" data-index="6" class="mole" alt="mole">
+            </div>
+        </div>
+        <div class="hole-container">
+            <div class="hole" id="hole-7">
+                <img src="./image/mole-sad.png" data-index="7" class="mole" alt="mole">
+            </div>
+        </div>
+    </section>
+    <img src="./image/win.png" class = "jeet win gone" alt="win">
+    <audio id="audio">
+        <source src="./music/gamesound.mp3"/>
+    </audio>
+    <script src="./javascript/script.js"></script>
+    
+</body>
+</html>

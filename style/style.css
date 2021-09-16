@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    cursor: url(../image/cursor.png), default;
+    background-color: #c0c86d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin:0px;
+    height: 100vh;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(123, 190, 114, 0.774);
+    width: 60%;
+    height: 500px;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+.close{
+    display:inline;
+    padding: 11px 21px;
+    position: relative;
+    left:117%;
+    bottom:55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgb(109, 185, 138);
+}
+.rules{
+   text-align: left;
+}
+.rules h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800 !important;
+    font-size: 4rem;
+    margin:0px;
+}
+.rules ol li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.done{
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-color: rgb(109, 185, 138);
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+   position: relative;
+   left: 40%;
+   top:30px;
+}
+.bg{
+    background-image: url(../image/background.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hole{
+    background-color: black;
+    border-radius:50%;
+    overflow:visible;
+    width:267px;
+    height: 267px;
+}
+.hole-container{
+    width:25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+}
+.mole{
+    position:relative;
+    width: 100%;
+    height: auto;
+    top:30px;
+}
+.hungry{
+    cursor: url(../image/cursor-worm.png), default;
+}
+.gone{
+    display: none;
+}
+.worm{
+    width: 1400px;
+    height: 99px;   
+    margin-top: 8px;
+}
+.worm-container{
+    overflow:hidden;
+    transition: ease-in-out;
+}
+.worm-box{
+    width: 1400px;
+}
+.jeet{
+    width: 40%;
+    height: 80%;
+}
